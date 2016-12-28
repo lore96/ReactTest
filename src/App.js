@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
+//import ReactDOM from 'react-dom';
 import logo from './logo.svg';
 import './App.css';
-
-var cats = require('./cats.js');
-
-console.log(cats);
 
 class App extends Component {
   render() {
@@ -17,9 +14,11 @@ class App extends Component {
         <p className="App-intro">
           Hello World
         </p>
+        <img src={logo} className="{startRotation()}" alt="logo" />
       </div>
     );
   }
 }
+
 
 export default App;
