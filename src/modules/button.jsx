@@ -5,7 +5,8 @@ const style = {
   marginTop:'2px',
   color: 'white',
   fontFamily: 'sans-serif',
-  border: 'none'
+  border: 'none',
+  padding: '10px 10px'
 };
 
 class Button extends Component {
