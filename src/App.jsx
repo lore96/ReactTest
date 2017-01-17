@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 //import ReactDOM from 'react-dom';
 import logo from './logo.svg';
+import Button from './modules/button.jsx';
 import './App.css';
 
 class App extends Component {
@@ -35,6 +36,8 @@ class App extends Component {
           Hello World
         </p>
         <img src={logo} className="{startRotation()}" alt="logo" />
+
+        <Button></Button>
       </div>
     );
   }
