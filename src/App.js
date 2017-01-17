@@ -4,6 +4,26 @@ import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
+    constructor(props){
+      super(props);
+      console.log("This is the constructor");
+      //this.state = {
+      //  b:2
+      //}
+    }
+  
+  componentDidMount(){
+    console.log("Mount complete");
+    //let newState = Object.assign({}, this.state, {b:1});
+    //this.setState(newState);
+  }
+
+  componentWillMount(){
+    console.log("Mount will be complete");
+    //let newState = Object.assign({}, this.state, {b:1});
+    //this.setState(newState);
+  }
+
   render() {
     return (
       <div className="App">
