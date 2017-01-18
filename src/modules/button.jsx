@@ -35,7 +35,7 @@ class Button extends Component {
         if(prevState.active === false){
           this.showMessage = 'new state';
         } else {
-          this.showMessage = 'inital state';
+          this.showMessage = 'initial state';
         }
 
         return ({active: !prevState.active});
