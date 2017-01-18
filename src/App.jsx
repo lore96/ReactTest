@@ -32,9 +32,9 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h2>Welcome to Redact</h2>
         </div>
-        <p className="App-intro">
+        <h3 className="App-intro">
           Hello World
-        </p>
+        </h3>
         <img src={logo} className="{startRotation()}" alt="logo" />
 
         <Button></Button>

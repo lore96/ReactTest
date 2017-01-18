@@ -9,10 +9,6 @@ const style = {
   padding: '10px 10px'
 };
 
-const text = {
-  fontFamily: 'sans-serif',
-  color: '#222'
-};
 
 class Button extends Component {
     constructor(props){
@@ -39,7 +35,6 @@ class Button extends Component {
         }
 
         return ({active: !prevState.active});
-        
       });
 
     console.log('Button click', this.state);
@@ -49,9 +44,8 @@ class Button extends Component {
   render() {
     return (
       <div>
-        <button style={style} onClick={this.foo} >NO</button>
-        <h3 style={text}>{this.showMessage}</h3>
-
+        <button style={style} onClick={this.foo} >Click</button>
+        <h3>{this.showMessage}</h3>
       </div>
     );
   }
