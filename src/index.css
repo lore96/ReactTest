@@ -6,6 +6,10 @@ body {
   background-color: #AEBAC2;
 }
 
+h3 {
+	color: #222;
+}
+
 .button:active {
 	background-color: #3e8e41;
 	box-shadow: 0 5px #666;
