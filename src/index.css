@@ -3,4 +3,24 @@ body {
   padding: 0;
   font-family: sans-serif;
   margin-bottom: 10px;
+  background-color: #AEBAC2;
 }
+
+.button:active {
+	background-color: #3e8e41;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+.button:hover{
+ 	box-shadow: '1px 6px 15px rgba(0,0,0,0.5)',
+}
+
+.container {
+	padding: 5px;
+	margin: auto;
+}
+
+
+/*color: #4C5255
+color: #636A6E*/
